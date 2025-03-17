@@ -1,0 +1,33 @@
+{
+  "build": {
+    "cpu": "cortex-m3",
+    "extra_flags": "-DSTM32L151xB",
+    "f_cpu": "16000000L",
+    "mcu": "stm32l151c8t6",
+    "product_line": "STM32L151xB"
+  },
+  "debug": {
+    "default_tools": [
+      "stlink"
+    ],
+    "openocd_target": "stm32l1"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube",
+    "libopencm3",
+    "zephyr"
+  ],
+  "upload": {
+    "maximum_ram_size": 10240,
+    "maximum_size": 65536,
+    "protocol": "stlink",
+    "protocols": [
+      "stlink"
+    ]
+  },
+  "name": "STM32L151C8T6",
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32l151c8.html",
+  "vendor": "ST"
+}

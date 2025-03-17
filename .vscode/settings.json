@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        ".env": "properties",
+        ".env.example": "properties",
+        ".htaccess": "apache",
+        ".htaccess*": "apache",
+        "main.h": "c",
+        "stm32l1xx_hal.h": "c",
+        "usbd_core.h": "c",
+        "usbd_def.h": "c",
+        "usbd_hid.h": "c",
+        "usbd_conf.h": "c",
+        "usb_device.h": "c",
+        "stm32l1xx.h": "c",
+        "usbd_desc.h": "c"
+    }
+}

@@ -1,1 +1,10 @@
-# eurorack-stm32-midi-to-cv
+# MIDI to CV
+
+## STLink Pins
+
+- VDD (Do not connect)
+- SWCLK
+- GND
+- SWDIO
+- RST
+- SWO
